@@ -29,13 +29,12 @@ TARX is a runtime for work, not a model company, chatbot wrapper, or benchmark c
 
 ## Repos
 
-Public map (real code only — empty beachheads are not listed):
+Public map (**real code only** — empty beachheads are not listed or pinned):
 
 | Repo | Role |
 |------|------|
-| [`tarx-desktop`](https://github.com/tarx-ai/tarx-desktop) | TARX Desktop — Mac Beta Electron shell |
+| [`tarx-desktop`](https://github.com/tarx-ai/tarx-desktop) | TARX Desktop — Mac Beta (pin first) |
 | [`tarx-cli`](https://github.com/tarx-ai/tarx-cli) | CLI for local Computer runtime |
-| [`tarx-mcp`](https://github.com/tarx-ai/tarx-mcp) | Remote MCP server source (private product) |
 
 Pinned set is **≤6** and only includes repositories with real source or releases.
 
@@ -46,10 +45,12 @@ Pinned set is **≤6** and only includes repositories with real source or releas
 - Secrets belong in protected secrets/Vault flows, not ordinary memory.
 - Production voice is not claimed here.
 - Windows Desktop is not public yet.
+- Internal/admin surfaces are not public product pages.
 
 ## Learn more
 
 - Website: https://tarx.com
 - Download: https://tarx.com/download
+- Chat: https://tarx.com/chat
 - Docs: https://docs.tarx.com
-- Developers: https://tarx.com/developers
+- Security (Desktop): https://github.com/tarx-ai/tarx-desktop/blob/main/SECURITY.md
