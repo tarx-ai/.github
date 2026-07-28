@@ -39,6 +39,7 @@ where work runs, what an agent may do, and what proof it must return.
 | --- | --- |
 | [`tarx-desktop`](https://github.com/tarx-ai/tarx-desktop) | Signed and notarized Apple Silicon beta, hardened Electron shell, release verification, security boundaries, and QA evidence |
 | [`tarx-cli`](https://github.com/tarx-ai/tarx-cli) | Portable local runtime control, diagnostics, model services, semantic search, project spaces, and MCP client setup |
+| [`governed-agent-contracts`](https://github.com/tarx-ai/governed-agent-contracts) | Portable proposal, decision, result, and evidence schemas with executable safety invariants |
 
 The current public surface demonstrates:
 
@@ -47,6 +48,8 @@ The current public surface demonstrates:
 - MCP connections for major AI development clients
 - Proposal-first actions and explicit approval boundaries
 - Health, system-integrity, release, and security documentation
+- Versioned action contracts for mutation, route approval, and evidence-backed
+  completion claims
 
 ## Build with us
 
