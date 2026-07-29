@@ -33,23 +33,23 @@ TARX is not a model company or a chatbot wrapper. It is the governed layer
 around inference and action, designed so a user or organization can control
 where work runs, what an agent may do, and what proof it must return.
 
-## Public proof
+## Public proof (verify in minutes)
 
 | Repository | What you can inspect |
 | --- | --- |
-| [`tarx-desktop`](https://github.com/tarx-ai/tarx-desktop) | Signed and notarized Apple Silicon beta, hardened Electron shell, release verification, security boundaries, and QA evidence |
-| [`tarx-cli`](https://github.com/tarx-ai/tarx-cli) | Portable local runtime control, diagnostics, model services, semantic search, project spaces, and MCP client setup |
-| [`governed-agent-contracts`](https://github.com/tarx-ai/governed-agent-contracts) | Portable proposal, decision, result, and evidence schemas with executable safety invariants |
+| [`tarx-desktop`](https://github.com/tarx-ai/tarx-desktop) | **Computer-canonical** Mac beta (`app.tarx.com/computer`), signed/notarized releases, navigation + agentic smoke, resource bounds |
+| [`tarx-cli`](https://github.com/tarx-ai/tarx-cli) | `tarx route check local` fail-closed preflight; four-host MCP install fixtures (Claude Desktop/Code, Cursor, VS Code) |
+| [`governed-agent-contracts`](https://github.com/tarx-ai/governed-agent-contracts) | Proposal → decision → result → evidence with executable invariants; MCP + enterprise route fixtures |
+| [Founder: Palantir AIP × local-first](https://github.com/wantzjt/palantir-aip-local-first) | Independent enterprise reference: policy routing → TARX `computer` / `private` / `deny` (not affiliated with Palantir) |
 
 The current public surface demonstrates:
 
-- Local inference and embeddings
-- A desktop bridge into the governed TARX runtime
-- MCP connections for major AI development clients
-- Proposal-first actions and explicit approval boundaries
+- **Computer by default** product entry (not a marketing chat wrapper)
+- Fail-closed local and approved remote inference preflight
+- MCP interoperability with host-adapter fixtures and merge invariants
+- Proposal-first actions; Supercomputer only with explicit approval
+- Enterprise local-first routing and offline/policy-deny evidence
 - Health, system-integrity, release, and security documentation
-- Versioned action contracts for mutation, route approval, and evidence-backed
-  completion claims
 
 ## Build with us
 
